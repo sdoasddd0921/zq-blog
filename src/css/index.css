@@ -1,0 +1,36 @@
+html, body, div, ul, li,
+nav, footer, p, span, a {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  min-height: 100vh;
+}
+
+body {
+  /* 用 vh 单位使 body 高度撑满可见区域，设置 100% 不能达到效果 */
+  min-height: 100vh;
+  min-width: 1080px;
+  position: relative;
+  box-sizing: border-box;
+  padding-bottom: 60px;
+}
+
+#root {
+  width: 1080px;
+  margin: 0 auto;
+  position: relative;
+  /* 出现滚动条的时候消抖 */
+  margin-left: calc(100vm - 100%);
+}
+
+#footer {
+  width: 100%;
+  height: 60px;
+  /* 不知道为啥如果 line-height 设置成和 height 一样高的话，会有滚动条出现，比 height 小就不会有 */
+  line-height: 59px;  
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}

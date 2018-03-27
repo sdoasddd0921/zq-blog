@@ -5,6 +5,8 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import store from './redux/store';
 
 import Home from './components/home-page';
+
+import './css/index.css';
 // import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(
