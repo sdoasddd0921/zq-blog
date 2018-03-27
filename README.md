@@ -1,3 +1,2 @@
-# ZQ-blog
-
-React 个人博客
+# zq-blog
+用 React 做个个人博客
