@@ -1,0 +1,21 @@
+{
+  "header": {
+    "username": "萤火虫 -----------开发中",
+    "blog_intro": "萤火虫的个人博客",
+    "navs": [
+      {
+        "label": "首页",
+        "icon": "3home",
+        "path": "/",
+        "exact": true,
+        "component": ""
+      },
+      {
+        "label": "关于",
+        "icon": "user",
+        "path": "/about",
+        "component": "about"
+      }
+    ]
+  }
+}

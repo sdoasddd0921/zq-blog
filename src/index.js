@@ -4,7 +4,11 @@ import { Provider } from 'react-redux';
 import { BrowserRouter as Router } from 'react-router-dom';
 import store from './redux/store';
 
-import Home from './components/home-page';
+import Head from './components/header';
+import Body from './components/list-body';
+import Menu from './components/menu';
+
+import infos from './blog.config.json';
 
 import './css/index.css';
 import './css/iconfont.css';
@@ -13,7 +17,11 @@ import './css/iconfont.css';
 ReactDOM.render(
   <Provider store={store}>
     <Router>
-      <Home />
+      <div>
+        <Head {...infos.header} />
+        <Body />
+        <Menu />
+      </div>
     </Router>
   </Provider>,
   document.getElementById('root')
