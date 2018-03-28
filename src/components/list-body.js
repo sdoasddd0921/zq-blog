@@ -6,7 +6,7 @@ import React from 'react';
 class Body extends React.Component {
   render() {
     return (
-      <div id="body" style={{width: '70%'}}>
+      <div id="body" style={{width: '70%'}} className="clear-float">
         list-body
       </div>
     );

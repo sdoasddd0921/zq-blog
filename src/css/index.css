@@ -4,6 +4,13 @@ nav, footer, p, span, a {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+a:hover, a:active, a:link {
+  color: inherit;
+}
+
 html {
   min-height: 100vh;
 }
@@ -19,10 +26,12 @@ body {
 
 #root {
   width: 1080px;
+  box-sizing: border-box;
   margin: 0 auto;
   position: relative;
   /* 出现滚动条的时候消抖 */
   margin-left: calc(100vm - 100%);
+  padding: 0 50px;
 }
 
 #footer {
@@ -45,12 +54,21 @@ body {
   border-bottom-width: 1px;
 }
 
+.clear-float { zoom: 1; }
+.cleat-float:after {
+  content: '';
+  height: 0;
+  clear: both;
+  display: block;
+  visibility: hidden;
+}
+
 /* Test CSS */
 #body {
-  background: lightblue;
+  /* background: lightblue; */
   float: left;
 }
 #menu {
-  background: indianred;
+  /* background: indianred; */
   float: right;
 }

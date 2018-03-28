@@ -7,6 +7,7 @@ import store from './redux/store';
 import Home from './components/home-page';
 
 import './css/index.css';
+import './css/iconfont.css';
 // import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(

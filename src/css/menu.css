@@ -1,0 +1,7 @@
+#menu {
+  box-sizing: border-box;
+  border-left-color: rgb(221, 221, 221);
+  border-left-width: 1px;
+  border-left-style: solid;
+  padding-left: 35px;
+}

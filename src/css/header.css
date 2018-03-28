@@ -1,3 +1,55 @@
 #head {
-  /* background: none; */
+  background: none;
+  margin-bottom: 35px;
+  min-height: 70px;
+  padding-top: 50px;
+  padding-bottom: 2px;
+  position: relative;
+}
+
+.name {
+  color: #555;
+  font-size: 38px;
+  line-height: 1.12em;
+  font-weight: bold;
+  font-family: "Times New Roman", Georgia, Times, sans-serif;
+}
+.name:hover {
+  color: #777;
+}
+
+.discription {
+  font-size: 14px;
+  color: #999;
+  margin: .2em 0 0;
+}
+
+#nav {
+  margin: 10px 0 -1px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+#nav a {
+  display: inline-block;
+  padding: 3px 20px;
+  line-height: 30px;
+  font-size: 13px;
+  height: 30px;
+  border: 1px solid transparent;
+}
+#nav a:hover {
+  border-bottom-color: #444;
+}
+#nav i {
+  color: #444;
+  font-size: 1em;
+  font-style: normal;
+}
+#nav i::before {
+  width: 23px;;
+}
+#nav a.active {
+  border-color: #ddd;
+  border-bottom-color: #fff;
 }

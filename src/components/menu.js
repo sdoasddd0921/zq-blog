@@ -3,10 +3,12 @@
  */
 import React from 'react';
 
+import '../css/menu.css';
+
 class Menu extends React.Component {
   render() {
     return (
-      <div id="menu" style={{width: '30%'}}>
+      <div id="menu" style={{width: '30%'}} className="clear-float">
         right-menu
       </div>
     );
