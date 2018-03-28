@@ -28,9 +28,29 @@ body {
 #footer {
   width: 100%;
   height: 60px;
+  font-size: 12px;
   /* 不知道为啥如果 line-height 设置成和 height 一样高的话，会有滚动条出现，比 height 小就不会有 */
   line-height: 59px;  
   position: absolute;
   bottom: 0;
   text-align: center;
+}
+
+/* 公共样式 */
+/* 每个功能块的下划线 */
+.block {
+  background: #ddd;
+  border-bottom-color: rgb(221, 221, 221);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+/* Test CSS */
+#body {
+  background: lightblue;
+  float: left;
+}
+#menu {
+  background: indianred;
+  float: right;
 }

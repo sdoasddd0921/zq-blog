@@ -1,10 +1,15 @@
 import React from 'react';
+import Head from './header';
+import Body from './list-body';
+import Menu from './menu';
 
 class Home extends React.Component {
   render() {
     return (
       <div id="home">
-        Home
+        <Head />
+        <Body />
+        <Menu />
       </div>
     );
   }
