@@ -24,7 +24,7 @@ ReactDOM.render(
       <div>
         <Head {...infos.header} />
         <Body />
-        <Menu />
+        <Menu menu={infos.menu} />
       </div>
     </Router>
   </Provider>,

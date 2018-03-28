@@ -47,7 +47,7 @@
   font-style: normal;
 }
 #nav i::before {
-  width: 23px;;
+  margin-right: 2px;
 }
 #nav a.active {
   border-color: #ddd;

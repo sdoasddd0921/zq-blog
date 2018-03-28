@@ -4,4 +4,16 @@
   border-left-width: 1px;
   border-left-style: solid;
   padding-left: 35px;
+  color: #6E7173;
+}
+
+.item-title::before {
+  margin-right: 5px;
+}
+
+.item-title {
+  padding-bottom: 0.8em;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: rgb(221, 221, 221);
 }

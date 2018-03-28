@@ -10,9 +10,11 @@ class Nav extends React.Component {
   render() {
     return (
       <div id="nav">
-        {this.props.navs.map((nav, index) => <NavLink exact={Boolean(nav.exact)} to={nav.path} key={index} >
-          <i className={`iconfont icon-${nav.icon}`}>{nav.label}</i>  
-        </NavLink>)}
+        {this.props.navs.map((nav, index) => (
+          <NavLink exact={Boolean(nav.exact)} to={nav.path} key={index} >
+            <i className={`iconfont icon-${nav.icon}`}>{nav.label}</i>  
+          </NavLink>
+        ))}
       </div>
     );
   }

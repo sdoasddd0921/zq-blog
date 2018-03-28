@@ -17,5 +17,21 @@
         "component": "about"
       }
     ]
-  }
+  },
+  "menu": [
+    {
+      "name": "搜索",
+      "disable": false,
+      "title": "",
+      "icon": "",
+      "component": ""
+    },
+    {
+      "name": "分类",
+      "disable": false,
+      "title": "分类",
+      "icon": "folder",
+      "component": ""
+    }
+  ]
 }
