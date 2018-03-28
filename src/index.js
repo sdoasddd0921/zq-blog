@@ -1,3 +1,7 @@
+/**
+ * blog 的主页,分为3个大板块,
+ * 每个板块需要渲染的内容写在JSON中。
+ */
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
